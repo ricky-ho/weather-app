@@ -1,0 +1,94 @@
+.weather-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  max-width: 500px;
+  min-width: 400px;
+  height: 500px;
+  margin: 50px auto;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.invalid-query {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.info {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.temp-info-row {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 15px;
+}
+
+.info-row-condition {
+  position: absolute;
+  width: 100%;
+  bottom: 35%;
+  text-align: center;
+}
+
+.city {
+  font-size: 2.2rem;
+}
+
+.country {
+  font-size: 2rem;
+  text-align: right;
+}
+
+.date-time {
+  font-family: monospace;
+  font-size: 1.4rem;
+}
+
+.description-icon {
+  margin-bottom: 10px;
+}
+
+.temp {
+  display: flex;
+  font-size: 2.75rem;
+  align-items: flex-end;
+}
+
+.min-temp,
+.max-temp {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.min-temp > span,
+.max-temp > span {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.temp-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
